@@ -11,7 +11,7 @@
 #include <SD.h>
 //SoftwareSerial K_30_Serial(0,1);
 
-static const int RXPin = 7, TXPin = 6;
+static const int RXPin = 6, TXPin = 7;
 static const uint32_t GPSBaud = 9600;
 const int buttonPin = 8;
 const int led = 9;
